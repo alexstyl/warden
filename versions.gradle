@@ -1,0 +1,32 @@
+ext {
+    majorVersion = 0
+    minVersion = 0
+    patchVersion = 2
+    // libraryVersionName = "${majorVersion}.${minVersion}.${patchVersion}"
+    libraryVersionName = "1.0.0-alpha${patchVersion}"
+    libraryVersionCode = majorVersion * 1000 + minVersion * 100 + patchVersion
+
+    javaVersion = JavaVersion.VERSION_11
+
+    androidCompileSdkVersion = 31
+    androidMinSdkVersion = 1
+
+    composeVersion = '1.1.1'
+    activityComposeVersion = '1.4.0'
+    lifecycleViewModelComposeVersion = "2.5.0-alpha03"
+    coreVersion = '1.7.0'
+    gradlePluginVersion = '7.1.1'
+
+    kotlinVersion = '1.6.10'
+    coroutinesVersion = '1.6.0'
+
+    hiltVersion = '2.40.5'
+    junitVersion = '4.13.2'
+    testRunnerVersion = '1.4.0'
+    testRulesVersion = '1.4.0'
+    testCoreVersion = '1.4.0'
+    gradleNexusVersion = '1.1.0'
+    assertjVersion = '3.21.0'
+    robolectricVersion = '4.5.1'
+    rxJavaVersion = '3.1.3'
+}
