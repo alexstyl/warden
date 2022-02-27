@@ -44,6 +44,12 @@ You can use the `requestPermissions()` suspend function to request multiple perm
 > The `Denied` state contains a `shouldShowRationale` property. When true, it is the right
 > time to show an educational message towards why your app requires the said permission.
 
+## Limitations
+
+The way Warden works is via launching an activity which handles the permission requests for you. This is what enables Warden to request permission and receive the results from any part of your app. 
+
+If you need to request permissions while no activity is visible (such as from a service), you might be limited by the [restrictions on starting activities from the background](https://developer.android.com/guide/components/activities/background-starts).
+
 ## Sample app
 
 The repository comes with a [sample app](/sample) for an example of usage.
