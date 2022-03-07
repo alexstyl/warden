@@ -1,4 +1,4 @@
-# Warden
+# Warden ![Featured on Android Weekly](https://androidweekly.net/issues/issue-508/badge)
 
 ![Android permissions as suspend functions](/assets/banner.png)
 
